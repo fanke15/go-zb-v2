@@ -10,7 +10,8 @@ import (
 func main() {
 
 	//url := "https://futures.zb.land"
-	url := "http://ttfutures.zb.com"
+	//url := "http://ttfutures.zb.com"
+	url := "https://fapi.zb.com"
 	client := public.NewPublicClient(url)
 
 	symbol := "ETH_USDT"
